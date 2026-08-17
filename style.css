@@ -1,0 +1,142 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e2530; 
+  padding: 20px 40px;
+  font-family: sans-serif;
+}
+.logo {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.nav-links a {
+  color: #b3bcc7; /* Light grayish-blue text */
+  text-decoration: none;
+  font-size: 0.9rem;
+  display: flex;
+  gap: 20px; /* Space between links */
+}
+
+/* Optional hover effect */
+.nav-links a:hover {
+  color: #ffffff;
+}
+/* Align logo and navigation to opposite sides */
+.section1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e2530; /* Dark blue background from the design */
+  padding: 10px 40px;        /* Adds padding around the header */
+}
+
+
+
+/* Container Layout */
+.section2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e2530; /* Dark blue background */
+  padding: 50px 80px;
+  gap: 40px;
+  font-family: sans-serif;
+}
+
+/* Left Content Styles */
+.left-side {
+  flex: 1; /* Equal width distribution */
+  max-width: 450px;
+}
+
+.left-side h1 {
+  color: #f9fafb;
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 8px;
+}
+
+.left-side p {
+  color: #e5e7eb;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+
+/* Button Styles */
+.left-side button {
+  background-color: #3882f6;
+  color: white;
+  border: none;
+  padding: 8px 24px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Right Image Placeholder Styles */
+.section2Image {
+  flex: 1; /* Equal width distribution */
+  background-color: #6b7280; /* Gray placeholder color */
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e5e7eb;
+  font-size: 0.95rem;
+}
+
+
+
+/* Entire Section Styling */
+.section3 {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #ffffff;
+  font-family: sans-serif;
+}
+
+/* Heading Styling */
+.section3 h1 {
+  font-size: 2.2rem;
+  color: #1f2937;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+/* Flexbox Row Container */
+.radom-info {
+  display: flex;
+  justify-content: center;
+  gap: 30px; /* Space between each card */
+  flex-wrap: wrap; /* Wraps items nicely on smaller screens */
+  flex-direction: column;
+}
+
+/* Individual Card Structure */
+.random1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 150px; /* Limits paragraph stretching */
+}
+
+/* Blue-Bordered Square Boxes */
+.number {
+  width: 130px;
+  height: 130px;
+  border: 4px solid #3882f6; /* Blue border color */
+  border-radius: 12px; /* Smooth rounded corners */
+  margin-bottom: 12px;
+}
+
+/* Text Under the Boxes */
+.random1 div {
+  color: #6b7280; /* Gray color for the description text */
+  font-size: 0.9rem;
+  line-height: 1.4;
+  margin: 0;
+}
