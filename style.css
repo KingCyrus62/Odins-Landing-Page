@@ -108,12 +108,12 @@
 }
 
 /* Flexbox Row Container */
-.radom-info {
+.random-info {
   display: flex;
   justify-content: center;
   gap: 30px; /* Space between each card */
   flex-wrap: wrap; /* Wraps items nicely on smaller screens */
-  flex-direction: column;
+  flex-direction: row;
 }
 
 /* Individual Card Structure */
@@ -139,4 +139,94 @@
   font-size: 0.9rem;
   line-height: 1.4;
   margin: 0;
+}
+
+
+/* Container for the whole section background */
+.section4 {
+  background-color: #e5e7eb; /* The soft gray-blue background */
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+/* Restricts the width and handles text layout */
+.quote {
+  max-width: 700px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Large, thin, italicized quote text */
+.quote p {
+  font-size: 24px;
+  font-style: italic;
+  color: #1f2937; /* Dark grayish-blue text */
+  font-weight: 300; /* Light weight for that thin look */
+  margin-bottom: 12px;
+}
+
+/* Bold, right-aligned author text */
+.quote cite {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: bold;
+  color: #1f2937;
+  text-align: right; /* Aligns the signature to the right side */
+}
+
+
+.section5 {
+  padding: 60px 20px;
+  display: flex;
+  font-family: sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+.cta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px; 
+  max-width: 100%; 
+  background-color: #3882f6;
+  padding: 40px;
+  border-radius: 12px;
+}
+
+.section5Text h3{
+  flex: 1; 
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 24px;
+  margin: 12px;
+  font-family: sans-serif;
+}
+.section5Text p {
+  flex: 1; 
+  color: #ffffff;
+  font-size: 16px;
+  margin: 12px;
+  font-family: sans-serif;
+}
+.section5Button button {
+  background-color: #3882f6;
+  border-color: white;
+  font-size: 16px;
+  color: white;
+  border-radius: 8px;
+  padding: 12px 20px;
+  font-family: sans-serif;
+}
+
+footer{
+  background-color: #1f2937;
+  padding: 20px 40px;
+  text-align: center;
+  color: #e5e7eb;
+  font-size: 24px;
+  border-radius: 8px;
 }
